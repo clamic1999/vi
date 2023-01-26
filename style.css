@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+header{
+    height: 100px;
+    width: 100%;
+    position: relative;
+    background-color: black;
+}
+.logo{
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    
+}
+body{
+    background-image: url(image/nature.jpg);
+    background-size: 208vh 93vh;
+    
+    background-repeat: no-repeat;
+    
+}
+
+.navlinks{
+    height: 70px;
+    width: 35%;
+    position: relative;
+    top: 35px;
+    float: right;
+    display: inline-flex;
+    justify-content: space-evenly;
+    
+}
+.navlinks li a{
+      
+    
+    
+    
+    margin-left: 10px;
+    
+    
+    
+    color: white;
+}
+
+footer{
+    height: 51px;
+    justify-content: center;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    margin-top: 74.7vh;
+    color: white;
+}
+@media only screen and (min-width: 360px) and (max-width: 430px) {
+    header{
+        display: flex;
+        
+    }
+    .logo img{
+        height: 50px;
+        width: 50px;
+        margin-top: 0.5rem;
+        border-radius: 50%;
+    }
+    body{
+        background-size: 90vh 100vh;
+    }
+    .navlinks{
+        float: right;
+        display: inline-flex;
+        margin-left: 45%;
+    }
+    
+    footer{
+        margin-top: 76.5vh;
+        display: flex;
+    }
+    
+}
